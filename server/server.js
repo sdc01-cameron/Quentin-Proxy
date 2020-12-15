@@ -1,6 +1,8 @@
 const express = require('express');
 const morgan = require('morgan');
 const path = require('path');
+// eslint-disable-next-line no-unused-vars
+const newRelic = require('newrelic');
 const router = require('./router');
 
 const PUBLIC_DIR = path.resolve(__dirname, '..', 'public');

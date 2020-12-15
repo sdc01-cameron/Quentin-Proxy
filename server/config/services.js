@@ -41,41 +41,24 @@
 */
 
 module.exports = {
-  service1: {
-    api: '/product/:id',
-    url: 'http://34.230.90.249:3001',
-    bundle: 'bundle.js',
-  },
-  service2: {
-    api: '/products/:id',
-    url: 'http://3.17.128.209:3002',
-    bundle: 'bundle.js',
-  },
-  service3: {
-    api: '/relatedProducts/all',
-    url: 'http://54.218.104.146:3003',
-    bundle: 'bundle.js',
-  },
+  // service1: {
+  //   api: '/product/:id',
+  //   url: 'http://34.230.90.249:3001',
+  //   bundle: 'bundle.js',
+  // },
+  // service2: {
+  //   api: '/products/:id',
+  //   url: 'http://3.17.128.209:3002',
+  //   bundle: 'bundle.js',
+  // },
+  // service3: {
+  //   api: '/relatedProducts/all',
+  //   url: 'http://54.218.104.146:3003',
+  //   bundle: 'bundle.js',
+  // },
   service4: {
     api: '/reviews/:id',
-    url: 'http://3.129.23.189:3004',
+    url: 'http://localhost:3004',
     bundle: 'bundle.js',
   },
 };
-
-/*
-
-Zain:
-/product/:id
-
-Deb:
-/products/:id
-
-Dylan: (note that his route wasn't prefixed with /api)
-/relatedProducts/all
-
-Joe:
-/products/:id/reviews
-
-
-*/
